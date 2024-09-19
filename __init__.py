@@ -147,7 +147,3 @@ def main(device=None):
         else lambda path: subprocess.run(["open", path])
     )
     open_cmd(Config.data_path)
-
-
-if __name__ == "__main__":
-    main(*sys.argv[1:])
